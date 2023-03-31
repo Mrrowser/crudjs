@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/all.css">
+  <title>CRUD Registration Form</title>
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="backgInputs">
+        <div class="containerItems">
+          <h1>CRUD Registration Form</h1>
+
+          <form id="registration-form">
+            <div class="item">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="item">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="item">
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone">
+            </div>
+            <button class="btn">
+              <input type="submit" id="submit-btn" value="Submit" class="btn-submit" >
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="backgTable">
+        <div class="containerTable">
+          <table id="registration-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container">
+      <div class="containerModal">
+        <div id="edit-modal" class="modal">
+          <div class="modal-content">
+              <div class="title">
+                <h2>Update Registration</h2>
+                <input type="button" id="close-btn" class="close-btn" value="X">
+              </div>
+
+              <form id="edit-form">
+                <div class="item">
+                  <input type="hidden" id="edit-id" name="id">
+                </div>
+                <div class="item">
+                  <label for="edit-name">Name:</label>
+                  <input type="text" id="edit-name" name="name">
+                </div>
+                <div class="item">
+                  <label for="edit-email">Email:</label>
+                  <input type="email" id="edit-email" name="email">
+                </div>
+                <div class="item">
+                  <label for="edit-phone">Phone:</label>
+                  <input type="text" id="edit-phone" name="phone">
+                </div>
+                <button class="btn">
+                  <input type="submit" id="edit-btn" value="Save">
+                  <input type="button" id="cancel-btn" value="Cancel">
+                </button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>

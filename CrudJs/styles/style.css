@@ -1,0 +1,166 @@
+.container {
+  padding: 2% 6%;
+
+}
+
+.backgInputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.containerItems {
+  background-color: #F2F4F4 ;
+  height: 100%;
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.containerItems > h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#registration-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#registration-form > .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item > input {
+  width: 350px;
+  padding: 1% 0;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+
+.btn {
+  border: none;
+}
+
+
+.btn-submit {
+  border: none;
+  width: 70px;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-submit:active {
+  color: black;
+}
+
+.containerTable {
+  background-color: #F2F4F4 ;
+  height: 100%;
+  width: 750px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.backgTable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#registration-table {
+  border: 1px solid #808B96;
+  border-radius: 2px;
+}
+
+td {
+  padding: 1% 30px;
+  background-color: white;
+}
+
+.edit-btn {
+  background-color: #F1C40F;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 2px;
+  color: #212F3D ;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #DD0000;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 2px;
+  color: white ;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  max-width: 500px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+
+
+#edit-btn {
+  background-color: #F1C40F;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 2px;
+  color: #212F3D ;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#cancel-btn {
+  background-color: gray;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 2px;
+  color: white ;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
